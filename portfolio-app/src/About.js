@@ -39,7 +39,22 @@ function About() {
                     </p>
                 </div>
 
-            
+                <div className="bg-white shadow-lg rounded-lg h-1/4 w-full my-5 p-8">
+                    <h2 className="text-xl font-bold">Links</h2>
+                    <p>
+                        <a href="https://github.com/anursaidy"
+                            className="text-blue-500 inline-block mt-5">
+                            Link to my GitHub
+                        </a>
+                        </p>
+                        <p>
+                        <a href="https://www.sfu.ca/students/calendar/2023/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html"
+                            className="text-blue-500 inline-block mt-5">
+                            Link to SFU Computing Science Major
+                        </a>
+                        </p>
+                   
+                </div>
             </div>
         </div>
     );
