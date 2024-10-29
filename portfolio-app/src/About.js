@@ -17,7 +17,22 @@ function About() {
             </div>
 
 
-            
+            <div className="flex justify-center flex-col mx-10  p-4">
+                <div className="bg-white shadow-lg rounded-lg h-1/2 p-4">
+                    <h2 className="text-xl font-bold">Introduction</h2>
+                    <p>
+                        intro message
+                    </p>
+                </div>
+
+
+                <div className="bg-white shadow-lg rounded-lg h-1/2 p-4">
+                    <h2 className="text-xl font-bold">Extra Content</h2>
+                    <p>
+                       Extra content
+                     </p>
+                </div>
+            </div>
         </div>
     );
 }
