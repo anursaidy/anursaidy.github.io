@@ -32,10 +32,11 @@ function About() {
 
 
                 <div className="bg-white shadow-lg rounded-lg h-1/4 w-full my-5 p-8">
-                    <h2 className="text-xl font-bold">Extra Information</h2>
+                    <h2 className="text-xl font-bold">Hobby</h2>
                     <p>
                         Apart from coding, I play many video games during my free time. I play many different genres of games, and I can not seem
-                        to stick to one since I enjoy them many. Currently, I am playing many roleplaying games and sandbox games.
+                        to stick to one since I enjoy playing them all. Currently, I am playing many roleplaying games and sandbox games, but willing
+                        to try out others.
                     </p>
                 </div>
 
