@@ -3,7 +3,7 @@ import matrixLL from './images/matrixLL.jpg'
 function About() {
     return (
         <div className="flex h-[calc(100vh-60px)]">
-            <div className="bg-black w-1/5 shadow-lg">
+            <div className="bg-black w-1/5 rounded-lg shadow-lg mx-2 my-10">
                 <div className="text-white p-4">
                     <h2 className="text-xl font-bold text-center">Programming Knowledge</h2>
                     <ul>
