@@ -4,7 +4,7 @@ import profileImage from './images/person.jpg'
 function HomePage() {
   return (
     <div>
-     <Header/>
+     {/* <Header/> */}
      <div className="flex items-center">
         <div className="w-1/3 p-5">
      <img src= {profileImage} alt="Profile" className="h-auto rounded" />
