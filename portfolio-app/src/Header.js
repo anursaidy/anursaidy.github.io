@@ -12,7 +12,6 @@ function Header() {
         <Link to="/" className="px-5 py-2  hover:bg-gray-400 rounded">Home</Link>
           <Link to="/about" className="px-5 py-2  hover:bg-gray-400 rounded">About</Link>
           <Link to="/projects" className="px-5 py-2 hover:bg-gray-400 rounded">Projects</Link>
-          <Link to="/links" className="px-5 py-2 hover:bg-gray-400 rounded">Links</Link>
         </nav>
       </div>
 
