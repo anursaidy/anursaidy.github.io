@@ -25,8 +25,8 @@ function About() {
                     <h2 className="text-xl font-bold">Introduction</h2>
                     <p>
                         Hello, I am a 3rd year Computer Science student at Simon Fraser University. I have a strong interest in software development and planning
-                        on pursuing a career as a front-end developer. Currently, I am improving my skills in web development and project management. I am always
-                        excited to collaborate and make projects with new people.
+                        on pursuing a career as a front-end developer. Currently, I am improving my skills in web development and project management through my CMPT 
+                        276 class and personal projects. I am always excited to collaborate and make projects with new people.
                     </p>
                 </div>
 
