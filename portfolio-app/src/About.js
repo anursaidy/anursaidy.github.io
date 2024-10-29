@@ -2,7 +2,7 @@ import React from 'react';
 import matrixLL from './images/matrixLL.jpg'
 function About() {
     return (
-        <div className="flex min-h-screen">
+        <div className="flex h-[calc(100vh-60px)]">
             <div className="bg-black w-1/5 shadow-lg">
                 <div className="text-white p-4">
                     <h2 className="text-xl font-bold text-center">Programming Knowledge</h2>
