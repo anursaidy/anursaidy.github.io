@@ -1,23 +1,37 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div>
-     <header className="bg-gray-300 text-gray-800 shadow-md top-0 w-full">
-     <div className="container mx-auto flex justify-between items-center py-4 px-6">
-        <div className="text-lg font-bold">MyPortfolio</div>
-
-        <nav>
-        <Link to="/" className="px-5 py-2  hover:bg-gray-400 rounded">Home</Link>
-          <Link to="/about" className="px-5 py-2  hover:bg-gray-400 rounded">About</Link>
-          <Link to="/projects" className="px-5 py-2 hover:bg-gray-400 rounded">Projects</Link>
-        </nav>
+    <nav className="flex justify-between items-center bg-gray-50 border-b border-blue-500 px-6 py-4">
+      <h1 className="text-3xl font-bold">PORTFOLIO</h1>
+      <div className="flex gap-2">
+        <Link
+          to="/"
+          className="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 text-center"
+        >
+          Home
+        </Link>
+        <Link
+          to="/about"
+          className="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 text-center"
+        >
+          About
+        </Link>
+        <Link
+          to="/projects"
+          className="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 text-center"
+        >
+          Projects
+        </Link>
+        <Link
+          to="/contact"
+          className="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 text-center"
+        >
+          Contact
+        </Link>
       </div>
-
-
-     </header>
-    </div>
+    </nav>
   );
 }
 
